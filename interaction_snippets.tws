@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-Vbody[data-tags="grow-and-fade"] .grow-and-fade {\u000a	background: red no-repeat center center;\u000a	position: absolute;\u000a	width: 10px;\u000a	height: 10px;\u000a	animation: growAndFade 1s 1;\u000a	animation-timing-function: ease-out;\u000a	animation-fill-mode: forwards;\u000a}\u000a\u000a@keyframes growAndFade {\u000a	0% {\u000a		transform: rotate(0deg) scale(0);\u000a	}\u000a\u000a	100% {\u000a		transform: rotate(360deg) scale(6);\u000a		opacity: 0;\u000a		display: none;\u000a	}\u000a}
+Vbody[data-tags*="grow-and-fade"] .grow-and-fade {\u000a	background: red no-repeat center center;\u000a	position: absolute;\u000a	width: 10px;\u000a	height: 10px;\u000a	animation: growAndFade 1s 1;\u000a	animation-timing-function: ease-out;\u000a	animation-fill-mode: forwards;\u000a}\u000a\u000a@keyframes growAndFade {\u000a	0% {\u000a		transform: rotate(0deg) scale(0);\u000a	}\u000a\u000a	100% {\u000a		transform: rotate(360deg) scale(6);\u000a		opacity: 0;\u000a		display: none;\u000a	}\u000a}
 p72
 sg23
 VgrowAndFadeCSS
@@ -202,12 +202,12 @@ sg25
 g26
 ((I2015
 I5
-I28
-I15
+I31
+I22
+I5
+I39
 I6
-I32
-I3
-I148
+I151
 I0
 tp74
 (dp75
@@ -336,7 +336,7 @@ tp113
 Rp114
 sbsa(dp115
 g14
-I00
+I01
 sg15
 (lp116
 F262.0
@@ -347,7 +347,7 @@ Tiddler
 p117
 (dp118
 g21
-V<html>\u000a<div class="example-area">\u000a<h3>CSS</h3>\u000a<textarea class="example example-area__code">\u000abody[data-tags="grow-and-fade"] .grow-and-fade {\u000a	background: red no-repeat center center;\u000a	position: absolute;\u000a	width: 10px;\u000a	height: 10px;\u000a	animation: growAndFade 1s 1;\u000a	animation-timing-function: ease-out;\u000a	animation-fill-mode: forwards;\u000a}\u000a\u000a@keyframes growAndFade {\u000a	0% {\u000a		transform: rotate(0deg) scale(0);\u000a	}\u000a\u000a	100% {\u000a		transform: rotate(360deg) scale(6);\u000a		opacity: 0;\u000a		display: none;\u000a	}\u000a}</textarea>\u000a</div>\u000a\u000a<div class="example-area">\u000a<h3>Javascript</h3>\u000a<textarea class="example-area__code"></textarea>\u000a</div>\u000a\u000a<div class="example-area play-area"></div>\u000a\u000a</html>
+V<html>\u000a<div class="example-area">\u000a<h3>CSS</h3>\u000a<textarea class="example example-area__code">\u000abody[data-tags*="grow-and-fade"] .grow-and-fade {\u000a	background: red no-repeat center center;\u000a	position: absolute;\u000a	width: 10px;\u000a	height: 10px;\u000a	animation: growAndFade 1s 1;\u000a	animation-timing-function: ease-out;\u000a	animation-fill-mode: forwards;\u000a}\u000a\u000a@keyframes growAndFade {\u000a	0% {\u000a		transform: rotate(0deg) scale(0);\u000a	}\u000a\u000a	100% {\u000a		transform: rotate(360deg) scale(6);\u000a		opacity: 0;\u000a		display: none;\u000a	}\u000a}</textarea>\u000a</div>\u000a\u000a<div class="example-area">\u000a<h3>Javascript</h3>\u000a<textarea class="example-area__code"></textarea>\u000a</div>\u000a\u000a<div class="example-area play-area"></div>\u000a\u000a</html>
 p119
 sg23
 VgrowAndFade
@@ -356,12 +356,12 @@ sg25
 g26
 ((I2015
 I5
-I28
-I15
-I20
-I43
-I3
-I148
+I31
+I22
+I5
+I44
+I6
+I151
 I0
 tp121
 (dp122
@@ -388,7 +388,7 @@ tp129
 Rp130
 sbsa(dp131
 g14
-I01
+I00
 sg15
 (lp132
 F146.0
